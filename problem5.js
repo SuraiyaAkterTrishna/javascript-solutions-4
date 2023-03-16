@@ -1,3 +1,8 @@
+/* Problem 5: isBestFriend
+
+তোমাকে একটি ফাংশন লিখতে হবে isBestFriend যেটি প্যরামিটার হিসেবে দুইটি অবজেক্ট নিবে । তোমাকে অবজেক্ট দুইটি নিয়ে দেখতে হবে এরা দুইজন একে অপরের বেস্টফ্রেন্ড কিনা । যদি বেস্ট ফ্রেন্ড হয় তাহলে true রিটার্ন করবে , না হলে false রিটার্ন করবে । 
+*/
+
 const people1 = {name: 'abul', friend: 'babul'};
 const people2 = {name: 'babul', friend: 'abul'};
 const people3 = {name: 'doe', friend: 'alex'};
@@ -15,20 +20,3 @@ function isBestFriend(p1, p2){
 const bestFriend = isBestFriend(people3, people5);
 console.log(bestFriend);
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* Problem 5: isBestFriend
-
-
-
-তোমাকে একটি ফাংশন লিখতে হবে isBestFriend যেটি প্যরামিটার হিসেবে দুইটি অবজেক্ট নিবে । তোমাকে অবজেক্ট দুইটি নিয়ে দেখতে হবে এরা দুইজন একে অপরের বেস্টফ্রেন্ড কিনা । যদি বেস্ট ফ্রেন্ড হয় তাহলে true রিটার্ন করবে , না হলে false রিটার্ন করবে । */
